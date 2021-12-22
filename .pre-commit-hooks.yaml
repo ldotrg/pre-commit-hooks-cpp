@@ -4,7 +4,6 @@
   language: system
   files: \.(c|cc|cxx|cpp|h|hpp|hxx)$
   entry: clang-format -i
-  args: ["-style=Google"]
 - id: cpplint
   name: cpplint
   description: Check style of C code using cpplint.
